@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ivy's Recipe</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <img src="https://assets-global.website-files.com/5dcc7f8c449e597ed83356b8/6269b3a19f67fd137a262d0a_A%20Logo%20Main%20-%20Red.svg" 
+        alt="App Academy Logo">
+        <nav>
+            <ul>
+             <li> <a href="#ingredients">Ingredients</a></li>  
+              <li> <a href="#instructions">Instruction</a></li>
+              <li><a href="nutrition">Nutrition</a></li>
+              <li><a href="description">Description</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <aside>
+        <h2 id="ingredients">Ingredients</h2>
+
+        <ul>
+            <li>⅔ cup cassava starch or yuca flour</li>
+            <li>¼ cup precooked cornmeal or masarepa</li>
+            <li>1 cup Mexican queso freso or Colombian quesito</li>
+            <li>1 + ¼ cup feta cheese</li>
+            <li>1 large egg</li>
+        </ul>
+        </aside>
+
+        <section>
+            <h1>Pandebono</h1>
+
+            <figure>
+                <img src="https://www.mycolombianrecipes.com/wp-content/uploads/2010/01/receta-de-pandebono-298x248.jpg" 
+                alt="Pandebono receipe">
+                <figcaption>
+                    <a href="https://en.wikipedia.org/wiki/Pandebono">The history of Pandebono</a>
+                </figcaption>
+            </figure>
+
+            <h2 id="description">Description</h2>
+            <p> Pandebono is a traditional colombian cheese bread. </p>
+            <h2 id="instructions">Instructions</h2>
+            <ol>
+                <li>Pre-heat the oven to 400°F.</li>
+                <li>In a food processor, place the yuca flour, cheese and masarepa. Process until well combined. Add the egg slowly while food processor is running.</li>
+                <li>Divide the mixture into 12 equal size portions, shaping them into balls.</li>
+                <li>Place on a baking sheet lined with parchment paper and bake for about 15 to 20 minutes or until golden on top. Serve warm.</li>
+            </ol>
+
+        </section>
+       <section id="reviews">
+        <h2>Reviews</h2>
+<form id="review-form"  action="/reviews" method="post">
+<label for="name">Name</label>
+<input type="text" name="name" id="name">
+
+<label for="rating">Rating</label>
+1 <input type="radio" name="rating" value="1">
+2 <input type="radio" name="rating" value="2">
+
+<label for="expertise">Cooking Expertise</label>
+<select name="expertise" id="expertise">
+<!-- <option value="Select Cooking Expertise" disabled="true" selected="true" >Select Cooking Expertise</option> -->
+<option value="Sometimes Cook">Sometimes Cook</option>
+<option value="Cook Everyday">Cook Everyday</option>
+</select>
+
+<!-- <label>Review
+<textarea name="review" id="review" cols="30" rows="10"></textarea>
+</label> -->
+
+</form>
+       </section>
+</body>
+<footer>
+    <p>This recipe is from <a href="https://www.mycolombianrecipes.com/pandebono-colombian-cheese-bread/">My Columbian Recipes</a> </p>
+</footer>
+</html>
+
+
+
+
+
+
